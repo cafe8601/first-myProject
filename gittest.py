@@ -22,6 +22,6 @@ class Cultery:
         self.lock.release()
         
 if __name__ == "__main__":
-    a = Cultery(5, 8)
-    a.change(2, 3)
+    a = Cultery(15, 18)
+    a.change(5, 10)
     print(f"{a.knives} , {a.forks}") 
